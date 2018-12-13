@@ -28,7 +28,7 @@ function setup() {
   imageMode(CENTER);
   
   // insert 20 butterflies into the array
-  for(var i = 0; i < 20; i++) {
+  for(var i = 0; i < 25; i++) {
     butterflies.push(new Butterfly());
   }
 }

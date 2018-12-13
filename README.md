@@ -9,7 +9,9 @@ A quick disclaimer: I've spoken to Craig about the format the exam, but I HAVE N
 
 Treat this practice exam the same way you'd treat the actual final exam. It's designed to be open book (more like open everything), so feel free to Google things, reference your previous assignments, or look at any of the examples that Craig has on the class website (I would recommend combing through them once or twice before the exam to jog your memory.)
 
-I've create three challenges: one using normal p5, one using AR, and one using VR. On the actual exam, Craig is going to give you three challenges as well, and ask you to choose any 2 of the 3 that you want to complete. I would recommend you try to do all 3 here if you have time, to review.
+I've create three challenges: one using normal p5, one using AR, and one using VR. On the actual exam, Craig is going to give you three challenges as well, and ask you to choose any 2 of the 3 that you want to complete. I would recommend you try to do all 3 here if you have time, to best prepare for the final.
+
+I'll be including a blank 'boilerplate' link to start. I'll add that to this website later lmao
 
 ## [p5](p5)
 
@@ -29,11 +31,11 @@ The main topics that I'm looking for in this problem are building classes, using
 
 ## [VR](vr)
 
-In VR, the challenge is to build a very simple game where the player collects objects in VR. I chose to make my objects look like coins using cylinders, but you can use any object-primitive that you'd like (or a .obj file if you're feeling really ambitious!)
+In VR, the challenge is to build a very simple game where the player collects objects in VR. I chose to make my objects look like coins using cylinders, but you can use any object-primitive that you'd like. You should also practice putting an OBJ file into your VR world!
 
-The objects should appear around the player in the VR world, and spin in place. When the user clicks on an object, a sound should play and the object should disappear from the world.
+The objects should appear around the player in the VR world, and spin in place. When the user clicks on an object, a sound should play and the object should disappear from the world. I chose to include a [spaceship](https://poly.google.com/view/fojR5i3h_nh) spinning in place, but you can choose any 3D object to import, and you can move or spin it however you like. I would recommend starting your search for an object [here](https://poly.google.com/user/4aEd8rQgKu2), because these objects tend to work well with A-Frame.
 
-The main topics I'm looking for here are using arrays/objects, adding many objects to the VR world, using methods on A-Frame objects, and adding clickFunctions.
+The main topics I'm looking for here are using arrays/objects, adding many objects to the VR world, importing and displaying .obj files, using methods on A-Frame objects, and adding clickFunctions.
 
 ## [Solutions](https://github.com/willmonahan/interactive-practice)
 

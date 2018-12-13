@@ -3,6 +3,8 @@ var world;
 
 // this array will hold our coins
 var coins = [];
+// ship variable will hold the spaceship
+var ship;
 
 // create and load the sound that we'll play when a coin is collected
 var coinSound;
@@ -41,6 +43,20 @@ function setup() {
 		// push the new coin onto the array
 		coins.push(new Coin(x, z));
 	}
+	
+	// import the spaceship object
+	ship = new OBJ({
+		asset: 'saucer-obj',
+		mtl: 'saucer-mtl',
+		x: 0,
+		y: 3,
+		z: 0,
+		scaleX: 2,
+		scaleY: 2,
+		scaleZ: 2
+	});
+	// and add the spaceship to the world
+	world.add(ship);
 }
 
 function draw() {
@@ -49,6 +65,8 @@ function draw() {
 	for (var i = 0; i < coins.length; i++) {
 		coins[i].update();
 	}
+	// spin the spaceship a little bit every frame!
+	ship.spinY(-1);
 }
 
 class Coin {
