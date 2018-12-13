@@ -11,7 +11,7 @@ Treat this practice exam the same way you'd treat the actual final exam. It's de
 
 I've create three challenges: one using normal p5, one using AR, and one using VR. On the actual exam, Craig is going to give you three challenges as well, and ask you to choose any 2 of the 3 that you want to complete. I would recommend you try to do all 3 here if you have time, to best prepare for the final.
 
-I'll be including a blank 'boilerplate' link to start. I'll add that to this website later lmao
+You can start by downloading <a href="boilerplate.zip" download>this boilerplate code</a> to fill in your solutions. It has all libraries included, and is hooked up to be ready-to-go.
 
 ## [p5](p5)
 
