@@ -65,15 +65,16 @@ class Ball {
     
     // if it bounces off the sides, reverse the x speed by multiplying it by -1
     // notice that I take into account the radius of the ball when I do this!
-    if(this.x < this.size || this.x > (width - this.size)) {
+    if(this.x < this.size/2 || this.x > (width - this.size/2)) {
       this.xSpeed *= -1;
     }
     
     // if it bounces off the bottom of the screen, bounce the y speed by -1
     // actually, I bounce it by -0.9 so that it bounces more realistically
     // instead of bouncing back to its original height, it gets lower each time
-    if(this.y > (height - this.ySpeed)) {
+    if(this.y > (height - this.size/2)) {
       this.ySpeed *= -0.9;
+      this.y = height - this.size/2;
     }
     
     // at the end of each frame, make the ball slightly smaller
