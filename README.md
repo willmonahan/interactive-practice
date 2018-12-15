@@ -31,9 +31,11 @@ The main topics that I'm looking for in this problem are building classes, using
 
 ## [VR](vr)
 
-In VR, the challenge is to build a very simple game where the player collects objects in VR. I chose to make my objects look like coins using cylinders, but you can use any object-primitive that you'd like. You should also practice putting an OBJ file into your VR world!
+**Note:** the clickFunction on OBJ files hasn't been working in AFramep5 lately, so use object primitives to click on, randomly positioned in the world. As well as this, *separately*, include at least one .obj file.
 
-The objects should appear around the player in the VR world, and spin in place. When the user clicks on an object, a sound should play and the object should disappear from the world. I chose to include a [spaceship](https://poly.google.com/view/fojR5i3h_nh) spinning in place, but you can choose any 3D object to import, and you can move or spin it however you like. I would recommend starting your search for an object [here](https://poly.google.com/user/4aEd8rQgKu2), because these objects tend to work well with A-Frame.
+In VR, the challenge is to build a very simple game where the player collects objects in VR. I chose to make my objects look like coins using cylinders, but you can use any object-primitive that you'd like.
+
+The objects should appear around the player in the VR world, and spin in place. When the user clicks on an object, a sound should play and the object should disappear from the world. You should also include one .obj file, somewhere in your VR world. I chose to include a [spaceship](https://poly.google.com/view/fojR5i3h_nh) spinning in place, but you can choose any 3D object to import, and you can move or spin it however you like. I would recommend starting your search for an object [here](https://poly.google.com/user/4aEd8rQgKu2), because these objects tend to work well with A-Frame.
 
 The main topics I'm looking for here are using arrays/objects, adding many objects to the VR world, importing and displaying .obj files, using methods on A-Frame objects, and adding clickFunctions.
 
